@@ -1,0 +1,63 @@
+.banner {
+    background: linear-gradient(rgba(0,8,4,0.6), rgba(0,8,4,0.6)), url(../images/pattern.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+.text {
+    text-align: center;
+}
+.brushes h1 {
+    vertical-align: middle;
+}
+
+.wrapper {
+    text-align: center;
+}
+.right_article {
+    color:white;
+}
+.brushes .left_article {
+    background-color: mediumaquamarine;
+    color: white;
+    text-align: center;
+}
+.brushes .half-image {
+    background:linear-gradient(rgba(0,8,4,0.6), rgba(0,8,4,0.6)),  url(../images/hacksaw.jpg);
+    background-size: cover;
+}
+.brushes h4 {
+    color:aquamarine;
+}
+.frames .left_article {
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+}
+.frames .half-image {
+    background:linear-gradient(rgba(0,8,4,0.6), rgba(0,8,4,0.6)),  url(../images/frames.jpg);
+    background-size: cover;
+}
+.frames h4 {
+    color:lightcoral;
+}
+.paint .left_article {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+.paint .half-image {
+    background:linear-gradient(rgba(0,8,4,0.6), rgba(0,8,4,0.6)),  url(../images/finnish.jpg);
+    background-size: cover;
+}
+.paint h4 {
+    color:cornflowerblue;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 50vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+  }
+
+ 

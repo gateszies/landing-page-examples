@@ -1,0 +1,459 @@
+    
+:root {
+  --main-font-family: 'Assistant', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --secondary-font-family: 'Volkhov', serif;
+}
+
+body {
+font-family: var(--main-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: var(--secondary-font-family) !important;
+font-weight: 700;
+}
+
+p {
+font-family: var(--main-font-family);
+}
+
+a {
+  color:#0001ee
+}
+
+a:hover {
+  color:inherit !important;
+  text-decoration:inherit !important;
+}
+.px-3-mobile {
+padding:3em !important;
+}
+
+ /* Use this class for full-width sections for even margins */
+@media (min-width: 992px) {
+.mx-20px {
+  margin-left:20px !important;
+  margin-right:20px !important;
+}
+}
+
+/* Navbar Styling */
+.navbar-logo {
+  max-width:175px;
+  width:100%;
+  height:auto;
+}
+.nav-link {
+  padding:20px 20px !important;
+}
+.nav-link a {
+  color:#444757;
+}
+.nav-link a:hover {
+  text-decoration: none !important;
+  color: #b1b2b5;
+  transition: 0.3s;
+}
+.nav-link-border {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/*Navbar Mobile Styling */
+@media screen and (min-width:576px) {
+  .navbar-logo {
+    max-width:250px !important;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .nav-link-border {
+    border-bottom: 0px !important;
+  }
+}
+
+/* Hero Styling */
+header.masthead {
+position: relative;
+background-color: #343a40;
+background-image: url(https://pages.equitablegrowth.org/rs/016-ZTK-226/images/Female-team-leader.jpg);
+background-size: cover;
+background-position: center center;
+padding-top: 4rem;
+padding-bottom: 4rem;
+}
+header.masthead .overlay {
+position: absolute;
+background-image: linear-gradient(to right, #67c2a5, #336152);
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+opacity: 0.9;
+}
+.button a{
+display: inline-block;
+color: white;
+line-height: inherit;
+text-decoration: none;
+cursor: pointer;
+}
+.button-1 a{
+padding: 15px 18px;
+border-style: solid;
+border-width: 3px;
+border-color: #336152;
+border-radius: 8px;
+background-color: #336152;
+font-family: var( --main-font-family);
+font-size: 1rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1.12px;
+}
+.button-1:hover a{
+background-color:transparent;
+}
+.button-2 a{
+margin-top:20px;
+padding: 15px 18px;
+border-style: solid;
+border-width: 3px;
+border-color: #67c2a5;
+border-radius: 8px;
+background-color: transparent;
+font-family: var( --main-font-family);
+font-size: 1rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1.12px;
+}
+.button-2:hover a{
+background-color:#67c2a5;
+border-color: #67c2a5;
+}
+
+/* Hero Mobile Styling */
+@media (min-width: 576px) {
+  .two-buttons {
+    display:inline-block  !important;
+  }
+  .button-2 {
+    margin-left:20px !important;
+  }
+}
+@media (min-width: 768px) {
+header.masthead h1 {
+font-size: 3rem;
+}
+.px-8 {
+padding: 8rem !important;
+}
+.px-3-mobile {
+padding:15px !important;
+}
+}
+
+
+/* Section 1 Styling */
+.form-wrapper {
+background-color:#ffffff;
+padding: 35px;
+border-radius: 4px;
+background-color: #fff;
+box-shadow: 0 0 20px 0 rgba(6, 37, 50, 0.5);
+}
+
+/* Section 1 Mobile Styling */
+@media (min-width: 768px) {
+.form-text-section {
+min-height:300px
+}
+}
+@media (min-width: 992px) {
+.form-container {
+margin-top: -34em !important;
+z-index: 1;
+}
+}
+
+/* Section 2,3,4 Styling */
+.showcase-text-section {
+padding: 8rem;
+}
+.showcase .showcase-img {
+min-height: 30rem;
+background-size: cover;
+}
+.showcase-vid {
+display:inherit !important;
+height:480px;
+}
+@media screen and (min-width: 1000px) {
+    .showcase-text-section-wrapper {
+        max-width: 400px;
+        margin:auto !important;
+        }
+}
+
+  /* Section 2 Styling */
+  #mkto_gen_section2Image {
+  width:100%;
+  height:100%;
+  }
+  .section-2-button a{
+  padding: 15px 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #F8F9FA;
+  border-radius: 8px;
+  background-color: #F8F9FA;
+  font-family: var( --main-font-family);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.12px;
+  }
+  .section-2-button:hover a{
+  background-color:transparent;
+  color:#F8F9FA !important;
+  }
+  /* Section 2 - Video - Styling */
+  .section-2-video-button a{
+  padding: 15px 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #336152;
+  border-radius: 8px;
+  background-color: #336152;
+  font-family: var( --main-font-family);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.12px;
+  }
+  .section-2-video-button:hover a{
+  background-color:transparent;
+  color:#336152 !important;
+  }
+
+  /* Section 3 Styling */
+  #mkto_gen_section3Image {
+      width:100%;
+      height:100%;
+  } 
+  .section-3-button a{
+  padding: 15px 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #67c2a5;
+  border-radius: 8px;
+  background-color: #67c2a5;
+  font-family: var( --main-font-family);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.12px;
+  }
+  .section-3-button:hover a{
+  background-color:transparent;
+  color:#67c2a5 !important;
+  }
+  /* Section 4 Styling */
+  #mkto_gen_section4Image {
+  width:100%;
+  height:100%;
+  }    
+  .section-4-button a{
+  padding: 15px 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #67c2a5;
+  border-radius: 8px;
+  background-color: #67c2a5;
+  font-family: var( --main-font-family);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.12px;
+  }
+  .section-4-button:hover a{
+  background-color:transparent;
+  color:#67c2a5 !important;
+  }   
+
+/* Section 2,3,4 Mobile Styling */
+@media (min-width: 768px) {
+.showcase .showcase-text {
+padding: 6rem;
+}
+}
+
+
+/* Section 5 Styling */
+.testimonials {
+padding-top: 7rem;
+padding-bottom: 7rem;
+}
+.testimonials .testimonial-item {
+max-width: 18rem;
+}
+#mkto_gen_section5Image1, #mkto_gen_section5Image2, #mkto_gen_section5Image3 {
+width:100%; 
+height:100%;
+object-fit: cover;
+}
+.section-5-button a{
+padding: 15px 18px;
+border-style: solid;
+border-width: 3px;
+border-color: #67c2a5;
+border-radius: 8px;
+background-color: #67c2a5;
+font-family: var( --main-font-family);
+font-size: 1rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1.12px;
+}
+.section-5-button:hover a{
+background-color:transparent;
+color:#67c2a5 !important;
+}    
+
+/* Footer Syling */
+.footer a, .footer p, .footer li {
+color:#ffffff !important;
+}
+.footer a:hover {
+color:#67c2a5 !important;
+}
+.social-icon-color a{
+  color:#67c2a5 !important;
+}
+.social-icon-color a:hover{
+  color:#336152 !important;
+}
+footer.footer {
+padding-top: 4rem;
+padding-bottom: 4rem;
+}
+#footerLogo {
+    max-width:200px;
+}
+
+.mktoGen.mktoImg {display:inline-block; line-height:0;}
+
+
+/* Form Styling */
+
+form.mktoForm {
+  width: 100% !important;
+  font-family: var(--main-font-family) !important;
+}
+
+.mktoForm .mktoFormCol {
+  float: none;
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+
+.mktoForm .mktoOffset {
+  display: none;
+}
+
+.mktoForm .mktoFieldWrap {
+  float: none;
+}
+
+label {
+  width: 100% !important;
+  font-family:var(--main-font-family) !important;
+  font-weight: normal;
+  margin-bottom: 0px !important;
+}
+
+.mktoLabel {
+font-weight:700 !important;
+}
+label.preField {
+  font-weight:700 !important;
+}
+
+.mktoForm .mktoGutter {
+  height:0.5em !important
+}
+
+
+mktoHtmlText.mktoHasWidth, .mktoCheckboxList {
+width: auto !important;
+}
+
+.mktoForm input[type=text],
+.mktoForm input[type=url],
+.mktoForm input[type=email],
+.mktoForm input[type=tel],
+.mktoForm input[type=number],
+.mktoForm input[type=date],
+.mktoForm select,
+.mktoForm textarea.mktoField,
+.mktoForm select.mktoField {
+  border: 1px solid rgba(0, 0, 0, .2);
+  width: 100% !important;
+  height: 44px;
+  border-radius: 4px;
+  margin-bottom: 18px;
+  box-shadow: none !important;
+
+}
+
+.mktoForm .mktoRadioList > input, .mktoForm .mktoCheckboxList > input {
+  margin-top: 0.3em !important;
+}
+
+.mktoForm.mktoLayoutAbove .mktoGutter {
+display: block !important;
+}
+  
+.mktoForm.mktoLayoutLeft .mktoRadioList,
+.mktoForm.mktoLayoutLeft .mktoCheckboxList {
+  clear: left;
+}
+
+span.mktoButtonWrap {
+  margin-left: 0px !important;
+}
+
+.mktoRadioList, .mktoCheckboxList {
+padding-bottom: 20px !important;
+}
+
+.mktoButtonRow {
+  margin-top:50px !important
+}
+
+.mktoForm button.mktoButton {
+  width: 100% !important;
+  background: #67c2a5 !important;
+  border: 1px solid #67c2a5 !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  padding: 15px 18px !important;
+  font-size: 1.125rem !important;
+   font-family: var(--main-font-family) !important;
+  box-shadow: none !important;
+  margin-top: 10px;
+}
+
+button.mktoButton:hover {
+    background: #336152 !important;
+    border: 1px solid #336152 !important;
+  }
+
+.mktoButtonRow {
+  width: 100%;
+}
